@@ -1,23 +1,23 @@
 import datetime
 import os
 
-# channel_id = os.environ.get("channel_id")
-# ycrop = int(os.environ.get("ycrop"))
-# y1crop = int(os.environ.get("y1crop"))
-# xcrop = int(os.environ.get("xcrop"))
-# otchet_id = os.environ.get("otchet_id")  # куда отправлять отчет
-# handoption = int(os.environ.get("handoption"))
-# cor_time = int(os.environ.get("cor_time"))
-# timeoption = int(os.environ.get("timeoption"))
-ycrop = 800
-y1crop = 27
-xcrop = 1427
-otchet_id = "-1001177988357"  # куда отправлять отчет
-channel_id = "-1001177988357"  # тестовый канал
-handoption = 301  # время общего опциона
-cor_time = 0  # корректировка времени по отношению к серверному времени
-timeoption = 10
-token = '1200302271:AAGwUmVr21OIL13rLv-3M3HX1xub6qoSF4M'
+channel_id = os.environ.get("channel_id")
+ycrop = int(os.environ.get("ycrop"))
+y1crop = int(os.environ.get("y1crop"))
+xcrop = int(os.environ.get("xcrop"))
+otchet_id = os.environ.get("otchet_id")  # куда отправлять отчет
+handoption = int(os.environ.get("handoption"))
+cor_time = int(os.environ.get("cor_time"))
+timeoption = int(os.environ.get("timeoption"))
+# ycrop = 800
+# y1crop = 27
+# xcrop = 1427
+# otchet_id = "-1001177988357"  # куда отправлять отчет
+# channel_id = "-1001177988357"  # тестовый канал
+# handoption = 301  # время общего опциона
+# cor_time = 0  # корректировка времени по отношению к серверному времени
+# timeoption = 10
+token = '1200302271:AAGwUmVr21OIL13rLv-3M3HX1xub6qoSF4M'  # @etomoytest_bot
 tokenpoll = '1908268664:AAEo_90786_J7RTYjZTRj5IiUFnHzoI4U4Y'  # demopollbot
 weekstart = 'https://i.ibb.co/D1N36KK/start.jpg'  # рисунок начала недели
 daystart = 'https://i.ibb.co/WDXkXJ6/start.jpg'  # рисунок начала дня

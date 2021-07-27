@@ -258,8 +258,8 @@ def trade_main(val_name):
     log_data.ins_data()
     volute = log_data.name.replace('/', '')
     try:
-        # driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)
-        driver = webdriver.Chrome(chrome_options=chrome_options)
+        driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)
+        # driver = webdriver.Chrome(chrome_options=chrome_options)
     except Exception as error:
         # print("Задержка открытия окна " + str(error))
         log_data.error("Задержка открытия окна " + str(error))
@@ -314,7 +314,7 @@ def trade_main(val_name):
             bot.send_message(channel_id, none_poll_message(), disable_web_page_preview=False,
                              parse_mode='HTML')  # отправка последнего сообщения
         except Exception as error:
-            error_text = "Ошибка отправки последнего сообщения! " + str(error)
+            error_text = "Ошибка отправки сообщения! " + str(error)
             print(error_text)
         return exit_main(start_time, driver, log_data)
     if variant[0] > variant[1]:
