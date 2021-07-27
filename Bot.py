@@ -43,6 +43,8 @@ def bot():
                 finally:
                     flaghandoption = 0
                     return
+            else:
+                return
 
 
 if __name__ == '__main__':
