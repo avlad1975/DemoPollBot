@@ -9,6 +9,7 @@ otchet_id = os.environ.get("otchet_id")  # куда отправлять отч�
 handoption = int(os.environ.get("handoption"))
 cor_time = int(os.environ.get("cor_time"))
 timeoption = int(os.environ.get("timeoption"))
+timeoption2 = int(os.environ.get("timeoption2"))
 # ycrop = 800
 # y1crop = 27
 # xcrop = 1427
