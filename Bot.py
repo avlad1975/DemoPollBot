@@ -27,7 +27,7 @@ def bot():
         day = datetime.weekday(datetime.now())
         if day >= 5:
             return
-        if hour == timeoption or timeoption2:
+        if hour == timeoption or hour == timeoption2:
             if flaghandoption == 0:
                 start_message()
                 flaghandoption = 1
