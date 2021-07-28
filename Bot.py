@@ -40,11 +40,7 @@ def bot():
                     last_message()
                 except Exception as error:
                     print('Ошибка отправки итогового сообщения - ' + str(error))
-                finally:
-                    flaghandoption = 0
-                    return
-            else:
-                return
+            return
 
 
 if __name__ == '__main__':

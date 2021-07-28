@@ -13,7 +13,7 @@ bot1 = Bot(tokenpoll)
 dp = Dispatcher(bot)
 result = [0, 0]  # итоги опроса
 timers = 60
-questions = ["Вход ВВЕРХ (покупка) 🟢", "Вход ВНИЗ (продажа) 🔴"]
+questions = ["Вход ВВЕРХ (покупка) 🟢", "Вход ВНИЗ (продажа) 🔴", "Пропускаю вход 🔵"]
 loop = asyncio.get_event_loop()
 
 
