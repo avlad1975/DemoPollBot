@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 from handtrade import trade_main, start_message, last_message
 import time
-from constant import cor_time, timeoption,timeoption2
+from constant import cor_time, timeoption
 
 flaghandoption = 0
 
@@ -21,13 +21,13 @@ def bot():
         day = datetime.weekday(cordate)
         thour = datetime.now() + timedelta(hours=cor_time)
         hour = thour.hour
-        print(str(hour))
+        # print(str(hour))
         if day >= 5:
             return
         day = datetime.weekday(datetime.now())
         if day >= 5:
             return
-        if hour == timeoption or hour == timeoption2:
+        if hour == timeoption:
             if flaghandoption == 0:
                 start_message()
                 flaghandoption = 1
