@@ -28,6 +28,7 @@ fanny = [':white_check_mark:']  # эмодзи для ПЛЮС
 good = [':beginner:']  # эмодзи для возврат
 fuck = [':heavy_minus_sign:']  # эмодзи дня МИНУС
 dogon = [':recycling_symbol:']  # эмодзи для догона
+endpicture = 'https://imbt.ga/hFdKsGIu3s'  # рисунок начала недели
 screen_url1 = "https://s.tradingview.com/widgetembed/?frameElementId=tradingview_09ab0&symbol=FX%3A"
 screen_url2 = "&interval=1&hidesidetoolbar=0&symboledit=1&saveimage=1&toolbarbg=f1f3f6&studies=%5B%5D&theme=" \
               "Dark&style=1&timezone=Etc%2FUTC&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=" \

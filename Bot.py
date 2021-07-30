@@ -2,6 +2,7 @@ from datetime import datetime, timedelta
 from handtrade import trade_main, start_message, last_message
 import time
 from constant import cor_time, timeoption
+from main import mainbot
 
 flaghandoption = 0
 
@@ -40,8 +41,10 @@ def bot():
                     last_message()
                 except Exception as error:
                     print('Ошибка отправки итогового сообщения - ' + str(error))
+            mainbot()
             return
 
 
 if __name__ == '__main__':
     bot()
+
